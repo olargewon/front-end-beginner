@@ -1,0 +1,32 @@
+.frame{
+    display:flex;
+}
+.left{
+    background-color: red;
+    flex:none;
+    width:300px;
+}
+.right{
+    background-color: blue;
+    flex:auto;
+    display:flex;
+    justify-content:end;
+    
+}
+.item{
+    flex:none;
+    width:100px;
+}
+.box{
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#cccccc;
+}
+.welcome{
+    width:200px;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
